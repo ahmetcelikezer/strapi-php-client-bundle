@@ -1,0 +1,22 @@
+{
+    "name": "ahc/strapi-client-bundle",
+    "description": "Client bundle for strapi headless cms",
+    "type": "symfony-bundle",
+    "keywords": ["strapi", "cms", "client", "headless cms", "symfony", "content management"],
+    "require": {
+        "psr/simple-cache": "^1.0",
+        "symfony/http-client": "^4||^5"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ahmet Celikezer",
+            "email": "ahmet@celikezer.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Ahc\\StrapiClientBundle\\": ""
+        }
+    }
+}
