@@ -1,5 +1,5 @@
 parameters:
     level: 5
     paths:
-        - %rootDir%/../../../Service
-        - %rootDir%/../../../Exception
+#        - %rootDir%/../../../Service
+#        - %rootDir%/../../../Exception
