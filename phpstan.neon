@@ -1,5 +1,6 @@
 parameters:
     level: 5
     paths:
+       - %rootDir%/../../../Synchronization
 #        - %rootDir%/../../../Service
 #        - %rootDir%/../../../Exception
