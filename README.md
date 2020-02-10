@@ -1,0 +1,1 @@
+[![CircleCI](https://circleci.com/gh/ahmetcelikezer/strapi-php-client-bundle.svg?style=svg)](https://circleci.com/gh/ahmetcelikezer/strapi-php-client-bundle)
