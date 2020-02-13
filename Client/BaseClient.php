@@ -25,6 +25,7 @@ abstract class BaseClient implements ClientInterface
     ) {
         $this->httpClient = $httpClient;
         $this->cache = $cache;
+        $this->generateContentTypes();
     }
 
     /** @return mixed[] */
@@ -151,7 +152,7 @@ abstract class BaseClient implements ClientInterface
         }
     }
 
-    protected function cacheMapGetContent(string $name, string $id): ?ResourceContentType
+    protected function cacheMapGetContent(string $name, int $id): ?ResourceContentType
     {
         $cacheKey = sprintf('%s?%s?%s', self::CACHE_KEY_CONTENT_MAP, $name, $id);
 
