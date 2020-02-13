@@ -1,0 +1,15 @@
+services:
+  ahc_strapi_client_bundle.http-client:
+    class: Symfony\Component\HttpClient\CurlHttpClient
+    arguments:
+      - { base_uri: 'http://localhost:1337' } #TODO: Get this from configuration
+
+  ahc_strapi_client_bundle.cache_pool:
+    class: Symfony\Component\Cache\Psr16Cache
+    arguments:
+      ['@cache.serializer']
+
+  Ahc\StrapiClientBundle\Client:
+    arguments:
+      - '@ahc_strapi_client_bundle.http-client'
+      - '@ahc_strapi_client_bundle.cache_pool'

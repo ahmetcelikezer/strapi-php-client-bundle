@@ -1,0 +1,2 @@
+strapi_client:
+  api_url: '%env(STRAPI_API_URL)%'
