@@ -1,4 +1,5 @@
 [![CircleCI](https://circleci.com/gh/ahmetcelikezer/strapi-php-client-bundle.svg?style=svg)](https://circleci.com/gh/ahmetcelikezer/strapi-php-client-bundle)
+![GitHub issues](https://img.shields.io/github/issues/ahmetcelikezer/strapi-php-client-bundle)
 
 > Warning! Do not use this bundle for your projects. The bundle is in development process.
 
