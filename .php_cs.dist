@@ -12,9 +12,9 @@ return PhpCsFixer\Config::create()
         '@Symfony:risky' => true,
         'array_syntax' => ['syntax' => 'short'],
         'method_chaining_indentation' => false,
-        'no_superfluous_phpdoc_tags' => true,
         'phpdoc_add_missing_param_annotation' => false,
         'ternary_to_null_coalescing' => true,
+        'declare_strict_types' => true,
     ])
     ->setFinder($finder)
 ;
