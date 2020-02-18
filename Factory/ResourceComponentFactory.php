@@ -17,9 +17,9 @@ class ResourceComponentFactory implements StaticFactoryInterface
         $fields = Mapper::mapResourceComponent($fields);
 
         return new ResourceComponent(
-            $fields['__component'],
-            $fields['id'],
-            $fields['fields']
+            (string) $fields['__component'],
+            (int) $fields['id'],
+            (array) $fields['fields']
         );
     }
 }
