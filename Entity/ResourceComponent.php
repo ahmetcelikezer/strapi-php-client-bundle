@@ -10,7 +10,7 @@ class ResourceComponent implements ComponentInterface
 {
     private string $componentType;
 
-    private string $id;
+    private int $id;
 
     /** @var mixed[] */
     private array $fields;
@@ -22,7 +22,7 @@ class ResourceComponent implements ComponentInterface
      */
     public function __construct(
         string $componentType,
-        string $id,
+        int $id,
         array $fields
     ) {
         $this->componentType = $componentType;
@@ -35,7 +35,7 @@ class ResourceComponent implements ComponentInterface
         return $this->componentType;
     }
 
-    public function getID(): string
+    public function getID(): int
     {
         return $this->id;
     }
