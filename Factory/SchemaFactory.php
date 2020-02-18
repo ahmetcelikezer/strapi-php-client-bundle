@@ -19,7 +19,7 @@ class SchemaFactory implements StaticFactoryInterface
             (string) $fields['collectionName'],
             (array) $fields['info'],
             (array) $fields['options'],
-            (array) $fields['attributes']
+            (array) $fields['attributes'],
         );
     }
 }

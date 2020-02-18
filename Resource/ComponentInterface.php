@@ -8,7 +8,7 @@ interface ComponentInterface
 {
     public function getComponentType(): string;
 
-    public function getID(): string;
+    public function getID(): int;
 
     /** @return mixed */
     public function get(string $field);
